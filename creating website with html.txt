@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+<title>My Website</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div id="main">
+<h1>My Website<h1>
+<hr>
+<p>Arpita Sikder</p>
+<p>Design projects :  <p>
+<p>[1]Amplifier design project <p>                                                                                      
+
+ <p>
+
+<a href="DesignProject.docx" target='_blank' 
+title="Click here to open a Word document">
+Click here to open Word document for Amplifier Design Project</a>
+
+<p>
+ 
+ <p>[2]CPU design project <p>
+ <p>
+
+<a href="cpu_design.docx" target='_blank' 
+title="Click here to open a Word document">
+Click here to open Word document for CPU design Project</a>
+
+<p>
+ 
+
+
+</div>
+</body>
+</html>
