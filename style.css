@@ -1,0 +1,28 @@
+body { 
+background:#E0AF75;
+text-align:left;
+font-family:"Times New Roman";
+font: 8pt;
+}
+#main{
+width:1000px;
+height:600px;
+background:;
+margin:20px auto;
+border:solid 4p;
+}
+hl{
+text-allign:center;
+font-family:"Times New Roman";
+font: 10pt;
+color:#ff3819;
+}
+hr{
+width=3px;
+color=#ff3819;
+}
+p{
+font-family:"Calibri";
+font-size:15pt;
+text-allign:left
+}
