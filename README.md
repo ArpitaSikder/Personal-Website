@@ -1,6 +1,6 @@
 # Web-development
 
-Link:https: //arpitasikder.imfast.io
+Link: https://arpitasikder.imfast.io
 
 Steps:
 To open the webpage. Create a folder in your desired location (say Desktop)
