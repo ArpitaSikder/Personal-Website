@@ -5,6 +5,8 @@
     <title>Arpita's Website</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    
+
 </head>
 
 <body>
@@ -14,6 +16,7 @@
                 <div class="title">
                     <div class="name">Arpita Sikder<br></div>
                     Computer Engineer-New Grad
+                    
                 </div>
                 <div class="header-options">
 
@@ -21,13 +24,17 @@
                     <a class="item" href="#resume">Resume</a>
                     <a class="item" href="#projects">Projects</a>
                     <a class="item" href="#contact">Contact</a>
+                    
 
                 </div>
+                
+                
             </div>
             <hr>
             <div class="personal-title">
                 <div class="logo"></div>
                 <div class="logo-name">About ME</div>
+                
             </div>
             <hr>
             <div class="Intro" id="intro">
@@ -39,18 +46,26 @@
                     <div class="aboutme-container">
 
                         <div class="greet">Hi there, <br> about me:</div>
-                        <div class="aboutme">I have recently graduated from Ryerson University with a Bachelor Degree in
-                            Computer Engineering. I am looking for a job that will help me push my limits and showcase
-                            my
-                            full potential. I have worked in many personal and course projects using java, javascript,
-                            C#
-                            etc.
+                        <div class="aboutme">
+                            <script>
+                                var i = 0;
+                                var speed = 50;
+                                var s = 'I have recently graduated from Ryerson University with a Bachelor\'s Degree in Computer Engineering. I am looking for a job that will help me push my limits and showcase my full potential.';
+                                function writestrings() {
+                                    if (i < s.length) {
+                                        document.querySelector('.aboutme').innerHTML += s.charAt(i);
+                                        i++;
+                                        setTimeout(writestrings, speed);
+                                    }
+                                }
+                                writestrings();
+                            </script>
                         </div>
 
                     </div>
                 </div>
             </div>
-            
+
             <div class="resume" id="resume">
                 <div class="education">
                     <div class="personal-title">
@@ -82,19 +97,11 @@
                                 Title- Software Integration Engineer<br>
                                 May 2018-August 2019:</div>
                             <ul>
-                                <li>Successfully created automated test cases for Desktop and mobile apps e.g Avaya
-                                    Spaces and Avaya Accounts, Equinox for Web etc using Ranorex and Pycharm with C# and
-                                    python respectively. </li>
-                                <li>Worked with the senior developers on a daily basis to figure out the various
-                                    frontend and backend bugs through critical testing and analysis. For example Screen
-                                    sharing, video, audio, chat box, login and other vital functionalities were
-                                    prioritized to ensure consistent quality service to our customer.</li>
-                                <li>Worked closely with the technical writer to document functionalities of new features
-                                    for software documentation.</li>
-                                <li> Used postman app to send get requests to check rest API functionalities.</li>
-                                <li>Also worked with Google cloud platform to test several new features like adding
-                                    company enterprise Single sign-on login option to our Desktop app or running cron
-                                    jobs etc.</li>
+                                <li>Created automated test cases for both Desktop and mobile apps e.g Avaya Spaces and Avaya Accounts, Equinox for Web etc using C# and python. </li>
+                                <li>Worked with Google cloud platform to test several new features like adding company enterprise Single sign-on login option to our Desktop app or running cron jobs etc.</li>
+                                <li>Improved debugging skills by working with developers to resolve  both frontend and backend bugs.</li>
+                                <li>Developed a good understanding on how backend APIs work and how to test them using automation and apps like Postman.</li>
+                                <li>Worked closely with the technical writer to document functionalities of new features for a better customer experience.</li>
                             </ul>
                         </div>
                     </div>
@@ -107,9 +114,9 @@
                     <div class="project">
 
                         <div class="des">
-                            
+
                             <ul>
-                               <li>Programming language: Java, Javascript, html, CSS, C, C#, python, SQL, </li>
+                                <li>Programming language: Java, Javascript, html, CSS, C, C#, python, SQL, </li>
                                 <li> Operating system: Windows, Linux</li>
                                 <li> Software: NetBeans Java, Quincy, MATLAB 2015a, Pycharm, Ranorex</li>
                             </ul>
@@ -246,8 +253,8 @@
             </div>
             <hr>
             <div class="contact" id="contact">
-                <div class="contact-item">Call - 6479394526</div>
-                <div class="contact-item">Email - arpitasikder@gmail.com</div>
+                <div class="contact-item"><i class="fas fa-phone-volume"></i> 6479394526</div>
+                <div class="contact-item"><i class="fas fa-envelope-open-text"></i>  arpitasikder@gmail.com</a></div>
                 <div class="contact-item">Copyright &copy; 2020 by Arpita Sikder</div>
             </div>
 
